@@ -33,7 +33,7 @@ code {
 
 .editDelete button{
   width: 80px;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color: transparent;
 }
 
@@ -67,4 +67,20 @@ code {
 
 .text-center{
   margin-bottom: 30px;
+}
+@media only screen and (max-width:576px) {
+  .app>div{
+    width: 70% !important;
+  }
+
+  .editDelete button{
+    height: 40px;
+  }
+  .editDelete input{
+    height: 41px;
+    padding: 0px 15px;
+  }
+  .editDelete{
+    margin-top: 7px;
+  }
 }

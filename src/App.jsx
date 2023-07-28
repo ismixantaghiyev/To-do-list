@@ -5,8 +5,8 @@ import TodolList from "./TodolList";
 function App() {
   const [data, setData] = useState([])
   return (
-    <div>
-      <div className="d-flex flex-column  justify-content-center w-25 m-auto">
+    <div className="app">
+      <div className="d-flex flex-column  justify-content-center   col-sm-6 col-md-3  m-auto">
         <Form data={data} setData={setData}/>
         <TodolList data={data} setData={setData}/>
       </div>

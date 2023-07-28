@@ -17,7 +17,7 @@ function Form({ data, setData }) {
     }
 
     return (
-        <div>
+        <div className='mb-4'>
             <h1 className='text-center'>Todo List</h1>
             <form className='d-flex gap-2'>
                 <input onChange={changeValue} value={value.text} className='form-input' type="text" placeholder='Enter Task. . .' />
